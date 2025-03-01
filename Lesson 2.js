@@ -1,4 +1,4 @@
-// Lesson 2: Variables (Data Store Karne ke liye)
+//////////////////////////////////////////////////  Lesson 2: Variables (Data Store Karne ke liye) \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 // Variables ka use data store aur reuse karne ke liye hota hai.
 var name = "Nisar";  // Old method (Avoid)
 let age = 18;        // Preferred method
