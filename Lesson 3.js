@@ -1,4 +1,4 @@
-// Lesson 3: Data Types
+// ////////////////////////////////////////////////////  Lesson 3: Data Types \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 // JavaScript me 5 main data types hote hain:
 
 
@@ -55,3 +55,30 @@ console.log(message, price, isStudent, colors, person);
 // 1️ Apne 3 favorite programming languages ka array banao.
 // 2️ 2nd language ko print karo.
 // 3️ Ek aur new language add karo aur updated array print karo.
+let programming = ["C++", "JavaScript", "Python"];
+console.log(programming[1]);
+programming.push("Java");
+console.log(programming);  
+
+
+// ////////////////////////////////////////  Agle Steps (Advance Array Methods)  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// 1️ Pehli programming language change karo:
+programming[0] = "C";
+console.log(programming);
+// Output:
+// ["C", "JavaScript", "Python", "Java"]
+
+// 2️ Ek new language shuru me add karo (unshift method)
+programming.unshift("Ruby");
+console.log(programming);
+// Output:
+// ["Ruby", "C", "JavaScript", "Python", "Java"]
+
+// 3️ Kisi bhi ek language remove karo (splice method)
+programming.splice(2, 1); // 3rd language remove karega
+console.log(programming);
+// Output:
+// [ 'Ruby', 'C', 'Python', 'Java' ]
+
+
+
